@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App{
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 965px;
+  width: 590px;
+  background-image: url('https://png.pngtree.com/element_origin_min_pic/16/07/01/1457760b7f1cdf9.jpg');
+  background-size: 590px 965px;
+  padding-left: 20px;
+}
+
+.button-display{
+  display: flex;
+  width: 400px;
+  margin-right: 15px;
+  justify-content: center;
+}
+
+.start-button{
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.start-button:hover {
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.reset-button{
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  color: red;
+  border: 1px solid red;
+}
+
+.reset-button:hover {
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.unit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+.watch{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.unit h1 {
+  font-size: 76px;
+  font-weight: 300;
+}
+
+.unit p {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.padd{
+  margin-right: 35px;
+}
